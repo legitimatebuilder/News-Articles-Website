@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    /* background: lightgray; */
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    color: #040c31;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 44px;
+}
+
+.header-two {
+    width: 100%;
+    height: 100px;
+    background: #040c31;
+    border-bottom: 2px solid #15b0c6;
+    position: relative;
+}
+
+.heading-two {
+    position: absolute;
+    color: #15b0c6;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.image-container {
+    width: 100%;
+    height: 600px;
+    /* background: orange; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box {
+    width: 75%;
+    height: 500px;
+    /* background: green; */
+    position: relative;
+    background-image: url(./Images/Conflict.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.article-content {
+    width: 100%;
+    height: 100vh;
+    /* background: lightgray; */
+    position: relative;
+}
+
+.text-one {
+    margin-left: 25px;
+}
+
+.article-one {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #040c31;
+}
+
+.text-two {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.article-two {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #040c31;
+}
+
+.text-three {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.article-three {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #040c31;
+}
+
+.text-four {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.article-content-one {
+    width: 100%;
+    height: 100vh;
+    /* background: lightgray; */
+    position: relative;
+}
+
+.text-five {
+    margin-left: 25px;
+}
+
+.article-four {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #040c31;
+}
+
+.text-six {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.article-five {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #040c31;
+}
+
+.text-seven {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.article-six {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #040c31;
+}
+
+.text-eight {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #040c31;
+    position: relative;
+}
+
+.footer-content {
+    color: #15b0c6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
